@@ -1,0 +1,95 @@
+body {
+    font-family: "Adobe Clean";
+    margin: 0;
+    padding: 0;
+    color: #4a4a4a;
+}
+
+header div:first-of-type {
+    background-color: #1473e6;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 100;
+    padding: 8px
+}
+
+header div p {
+    margin: 0;
+}
+
+
+header div:nth-of-type(2) {
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+header img {
+    height: 1em;
+    width: 1em;
+}
+
+main {
+    padding: 0px;
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+main.appear {
+    opacity: 1;
+}
+
+main div {
+    padding: 48px 24px;
+}
+
+main div.highlighted {
+    background-color: grey;
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+    background-color: #fafafa;
+}
+
+main div.title {
+    background: rgb(250,15,0);
+    background: linear-gradient(-135deg, rgba(250,15,0,1) 0%, rgba(173,10,0,1) 100%);
+    color: white;
+}
+
+a:any-link {
+    border: 2px solid currentColor;
+    padding: 12px 20px 8px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: currentColor;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 3rem;
+}
+main div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main div li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding: 24px;
+    margin: 12px;
+    height: 200px;
+    width: 250px;
+}
