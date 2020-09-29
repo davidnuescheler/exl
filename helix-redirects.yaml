@@ -1,8 +1,2 @@
 redirects:
-  - https://adobe.sharepoint.com/:x:/s/TheBlog/EaikC7JAUNpAoZy604FUP7YB2oTdxZVtrWNihbJ6k-BCnA?email=&e=Nd2OF4
-  - from: .*\/feed/$
-    to: /feed.xml
-    type: temporary
-  - from: .*\/feed$
-    to: /feed.xml
-    type: temporary
+  - https://docs.google.com/spreadsheets/d/112x3cqSL6-F8WpFskXAHyBKBWRief422M1xRMzGcB-Y/edit#gid=0
